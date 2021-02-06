@@ -2,10 +2,23 @@
 
 \usepackage[latin1]{inputenc}
 
+\usepackage{amsmath}
+\usepackage{amssymb}
+
 \newcommand*\euler{\mathrm{e}}
 \newcommand*\arccot{\mathrm{arccot}}
 
 \begin{document}
+
+\section{Greatest common divisor}
+$a, b, c\in \mathbb{Z}$:\\
+$\gcd(a, b) = \gcd(b, a)$\\
+$\gcd(\pm a, \pm b) = \gcd(b, a)$\\
+$\gcd(a, a) = \vert a\vert$\\
+$\gcd(a, 0) = \vert a\vert$\\
+$\gcd(a, 1) = 1$\\
+$\gcd(a, b) = \gcd(a, b\bmod a)$, $a\neq 0$\\
+$\gcd(a, b + ac) = \gcd(a, b)$\\
 
 \section{Compound angle formulae}
 \[\sin{(\alpha + \beta)} = \sin{\alpha}\cos{\beta} + \cos{\alpha}\sin{\beta}\]
