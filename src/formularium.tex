@@ -16,9 +16,14 @@ $\gcd(a, b) = \gcd(b, a)$\\
 $\gcd(\pm a, \pm b) = \gcd(b, a)$\\
 $\gcd(a, a) = \vert a\vert$\\
 $\gcd(a, 0) = \vert a\vert$\\
+$\gcd(0, 0) = 0$\\
 $\gcd(a, 1) = 1$\\
 $\gcd(a, b) = \gcd(a, b\bmod a)$, $a\neq 0$\\
 $\gcd(a, b + ac) = \gcd(a, b)$\\
+$\gcd(a, b, c) = \gcd(a, \gcd(b, c)) = \gcd(\gcd(a, b), c)$\\
+$\gcd(ac, bc) = \gcd(a, b)\cdot\vert c\vert$\\
+If $a\equiv b\bmod c$: $\gcd(a, c) = \gcd(b, c)$\\
+If $\gcd(a, b) = 1$: $\gcd(ab, c) = \gcd(a, c)\cdot\gcd(b, c)$\\
 
 \section{Compound angle formulae}
 $\sin{(\alpha + \beta)} = \sin{\alpha}\cos{\beta} + \cos{\alpha}\sin{\beta}$\\
