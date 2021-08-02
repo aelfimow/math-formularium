@@ -1,7 +1,6 @@
 \documentclass[a4paper, 10pt]{scrartcl}
 
-\usepackage[latin1]{inputenc}
-
+\usepackage{ngerman}
 \usepackage{amsmath}
 \usepackage{amssymb}
 
@@ -12,9 +11,16 @@
 \setlength{\parindent}{0em}
 
 \section*{Mengenoperationen}
-$A\cap B := \{x: x\in A und x\in B\}$\\
-$A\cup B := \{x: x\in A oder x\in B\}$\\
-$A\setminus B := \{x: x\in A und x\notin B\}$\\
+Durchschnitt: $A\cap B := \{x: x\in A \wedge x\in B\}$\\
+Vereinigung: $A\cup B := \{x: x\in A \vee x\in B\}$\\
+Komplement: $A\setminus B := \{x: x\in A \wedge x\notin B\}$\\
+
+Rechenregeln für Mengen:\\
+$A\cup A = A$\\
+$A\cup B = B\cup A$\\
+$A\cup (B\cup C) = (A\cup B)\cup C$\\
+$A\cup (B\cap C) = (A\cup B)\cap (A\cup C)$\\
+$(A\setminus B)\setminus C = A\setminus (B\cup C)$\\
 
 \section*{Summation formulas and properties}
 Finite sum:
